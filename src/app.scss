@@ -67,17 +67,15 @@ body {
 	user-select: none;
 }
 
-.flipbook-viewport .shadow{
-	-webkit-transition: -webkit-box-shadow 0.5s;
-	-moz-transition: -moz-box-shadow 0.5s;
-	-o-transition: -webkit-box-shadow 0.5s;
-	-ms-transition: -ms-box-shadow 0.5s;
+.flipbook-viewport .shadow {
+	transition: box-shadow 0.5s;
 
-	-webkit-box-shadow:0 0 20px #ccc;
-	-moz-box-shadow:0 0 20px #ccc;
-	-o-box-shadow:0 0 20px #ccc;
-	-ms-box-shadow:0 0 20px #ccc;
-	box-shadow:0 0 20px #ccc;
+	box-shadow:	
+		0 1.9px 1.9px rgba(0,0,0,.3), 
+		0 3.61px 3.61px rgba(0,0,0,.3), 
+		0 6.859px 6.859px rgba(0,0,0,.3), 
+		0 13.0321px 13.0321px rgba(0,0,0,.3), 
+		0 24.76099px 24.76099px rgba(0,0,0,.3);
 }
 
 .flipbook-nav {
