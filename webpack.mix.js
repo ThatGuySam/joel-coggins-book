@@ -42,7 +42,8 @@ mix.browserSync({
 // mix.disableNotifications();
 mix.setPublicPath('dist');
 // mix.setResourceRoot('prefix/for/resource/locators');
-// mix.autoload({}); <-- Will be passed to Webpack's ProvidePlugin.
+mix.autoload({ 'jquery': ['window.$', 'window.jQuery', 'jQuery', '$'] })
+
 // mix.webpackConfig({}); <-- Override webpack.config.js, without editing the file directly.
 // mix.babelConfig({}); <-- Merge extra Babel configuration (plugins, etc.) with Mix's default.
 // mix.then(function () {}) <-- Will be triggered each time Webpack finishes building.
