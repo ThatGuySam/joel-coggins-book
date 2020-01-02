@@ -25,7 +25,8 @@ body {
 }
 
 .flipbook-viewport .flipbook {
-	$basis: 0.85;
+	$basis: 0.8;
+	--basis: #{$basis};
 
 	width: ($basis * 92.2vw);
 	height: ($basis * 60vw);
