@@ -1,0 +1,21 @@
+## System and generated files
+.idea
+.DS_Store
+.sass-cache
+
+## Directories
+log/
+node_modules/
+
+## Built Files
+dist/*
+/mix-manifest.json
+
+## Files
+result.xml
+npm-debug.log
+/yarn-error.log
+/now-secrets.json
+/dist/mix-manifest.json
+now-secrets.json
+/netlifyctl-debug.log
