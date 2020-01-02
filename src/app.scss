@@ -3,8 +3,15 @@
 body {
 	overflow:hidden;
 	background-color:#fcfcfc;
+	height: 100vh;
 	margin:0;
 	padding:0;
+
+	&::after {
+		content: '';
+		display: block;
+		height: 1px;
+	}
 }
 
 .flipbook-viewport{
