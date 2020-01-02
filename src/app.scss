@@ -79,3 +79,15 @@ body {
 	-ms-box-shadow:0 0 20px #ccc;
 	box-shadow:0 0 20px #ccc;
 }
+
+.flipbook-nav {
+	background: white;
+	margin: 15px;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	top: 50vh;
+
+	border-radius: 9999px;
+	font-weight: 800;
+}

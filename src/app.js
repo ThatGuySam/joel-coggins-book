@@ -6,6 +6,8 @@ import './turn'
 
 
 const $flipbook = $('.flipbook')
+const $previousButton = $('.flipbook-previous')
+const $nextButton = $('.flipbook-next')
 
 const calculateDimenstions = function () {
 	const basis = Number(getComputedStyle($flipbook[0]).getPropertyValue('--basis'))
@@ -39,6 +41,14 @@ $flipbook.turn({
 
 	autoCenter: true
 
+})
+
+$previousButton.click(function () {
+	$flipbook.turn("previous")
+})
+
+$nextButton.click(function () {
+	$flipbook.turn("next")
 })
 
 // Resize book when window resizes
